@@ -17,18 +17,18 @@ To use the Automatic Time Set Script, follow these steps:
 
    ```bash
    git clone https://github.com/revisto/automatic-time-set.git
-   cd automatic-time-set```
+   cd automatic-time-set
 
 
 2. Make the script executable by running the following command:
 
    ```bash
-   chmod +x time_set_script.sh```
+   chmod +x time_set_script.sh
 
 3. Move it to bin:
 
    ```bash
-   sudo mv set_time_to_iran.sh /bin/```
+   sudo mv set_time_to_iran.sh /bin/
 
 # Startup Cron Job Setup 🚀
 
@@ -41,14 +41,14 @@ This guide will walk you through setting up a cron job that runs a command autom
 2. Edit the crontab file using the following command:
 
    ```bash
-   sudo crontab -e```
+   sudo crontab -e
 
 3. If prompted to choose an editor, select your preferred text editor (e.g., nano, vim).
 
 4. In the crontab file, add a new line at the end to specify the command you want to run at startup. For example:
 
    ```bash
-   @reboot sudo bash /bin/set_time_to_iran.sh‍‍‍```
+   @reboot sudo bash /bin/set_time_to_iran.sh‍‍‍
 
 # License 📄
 This script is licensed under the MIT License. Feel free to modify and distribute it as needed.
