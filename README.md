@@ -20,15 +20,17 @@ To use the Automatic Time Set Script, follow these steps:
    cd automatic-time-set
 
 
-2. Make the script executable by running the following command:
-
-   ```bash
-   chmod +x time_set_script.sh
-
-3. Move it to bin:
+2. Move it to bin:
 
    ```bash
    sudo mv set_time_to_iran.sh /bin/
+
+
+3. Make the script executable by running the following command:
+
+   ```bash
+   chmod +x /bin/time_set_script.sh
+
 
 # Startup Cron Job Setup 🚀
 
