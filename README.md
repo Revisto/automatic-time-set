@@ -30,7 +30,6 @@ To use the Automatic Time Set Script, follow these steps:
    ```bash
    sudo mv set_time_to_iran.sh /bin/```
 
-
 # Startup Cron Job Setup 🚀
 
 This guide will walk you through setting up a cron job that runs a command automatically every time your system starts up. This is useful for executing tasks or scripts that need to run on system startup.
@@ -42,8 +41,7 @@ This guide will walk you through setting up a cron job that runs a command autom
 2. Edit the crontab file using the following command:
 
    ```bash
-   sudo crontab -e
-   ```
+   sudo crontab -e```
 
 3. If prompted to choose an editor, select your preferred text editor (e.g., nano, vim).
 
@@ -51,7 +49,6 @@ This guide will walk you through setting up a cron job that runs a command autom
 
    ```bash
    @reboot sudo bash /bin/set_time_to_iran.sh```
-
 
 # License 📄
 This script is licensed under the MIT License. Feel free to modify and distribute it as needed.
