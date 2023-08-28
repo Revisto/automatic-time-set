@@ -48,7 +48,7 @@ This guide will walk you through setting up a cron job that runs a command autom
 4. In the crontab file, add a new line at the end to specify the command you want to run at startup. For example:
 
    ```bash
-   @reboot sudo bash /bin/set_time_to_iran.sh```
+   @reboot sudo bash /bin/set_time_to_iran.sh‍‍‍```
 
 # License 📄
 This script is licensed under the MIT License. Feel free to modify and distribute it as needed.
